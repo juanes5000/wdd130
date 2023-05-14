@@ -1,9 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@100&display=swap');
+
+:root {
+    --heading-font: Comme;
+    --paragraph-font: Lora, Poppins, Ysabeau;
+}
 .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
 }
 
-#active {
-    background-color: white;
-    color: steelblue;
+body {
+    background-color: rgb(255, 159, 231);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+img  {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+h1:hover {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+ol {
+    padding: 5px;
+    margin-left: 35px;
+    color: rgb(0, 0, 0);
+    padding-top: 2%;
+    padding-right: 20%;
+    padding-bottom: 2%;
+    padding-left: 29%;
+    text-align: left;
+  }
+h2 {
+    padding-top: 2%;
+    padding-right: 30%;
+    padding-bottom: 2%;
+    padding-left: 30%;
+    text-align: center;
+}
+p {
+    margin: 20px auto;
+    
+}
+footer p {
+
+
+    padding-right: 30%;
+    padding-left: 30%;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin: 20px auto;
+}
+h5 {
+    padding-top: 2%;
+    padding-right: 30%;
+    padding-bottom: 2%;
+    padding-left: 30%;
 }

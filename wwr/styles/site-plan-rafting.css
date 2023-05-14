@@ -9,9 +9,9 @@ Fonts are separated by a & */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #97ACAF   ;
-  --secondary-color: #51F588 ;
+  --secondary-color: #B1FBCA ;
   --accent1-color: #516B7B;
-  --accent2-color: #4D2E2E;
+  --accent2-color: #BA8C8C;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Comme;
