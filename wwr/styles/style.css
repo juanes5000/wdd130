@@ -1,8 +1,19 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@100&display=swap');
+:root {
+    --heading-font: Comme;
+    --paragraph-font: Lora, Poppins, Ysabeau;
+}
 body {
     max-width: 1600px;
     margin: 0 auto;
     background-color: #97ACAF;
+    font-family: 'Poppins', 'Ysabeau', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -14,6 +25,7 @@ nav a{
     text-align: center;
     color: #552929;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #552929;
@@ -21,6 +33,10 @@ nav a:hover{
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+}
+#logo_link {
+    
+    padding-top: 5px;
 }
 .button-box{
     text-align: center;
@@ -33,13 +49,20 @@ main section{
     background-color: #B1FBCA;
 }
 .home-title{
-    color: black;
+    font-family: 'Lora', 'Comme', sans-serif;
+    font-size: 2em;
+    color: #552929;
+    margin-top: 10px;
 }
 .book, .join{
+    font-family: 'Ysabeau', 'Poppins', sans-serif;
+    font-size: 18px;
     background-color: #552929;
     color: #B1FBCA;
     text-decoration: none;
-    font-size: 1em;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
     
 }
 .book:hover, .join:hover{
@@ -48,14 +71,24 @@ main section{
 }
 .msg{
     background-color: #516B7B;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #BA8C8C;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 h4{
     background-color: #84969A;
     color: #552929;
+    font-size: 1.1em;
+}
+h2 {
+    background-color: #516B7B;
+    color: #B1FBCA;
+    margin: 0;
     font-size: 1.1em;
 }
 .msg h2{
@@ -63,9 +96,11 @@ h4{
     color: #B1FBCA;
 }
 .msg p{
+    font-family: 'Poppins', 'Ysabeau', sans-serif;
+    font-size: .8em;
     background-color: #516B7B;
     color: #B1FBCA;
-    font-size: 1.1em;
+    padding-bottom: 15px;
 }
 footer a{
     background-color: #BA8C8C;
@@ -90,7 +125,22 @@ footer p a:hover {
 .icon{
     width: 80px;
     height: 100px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
+}
+footer .social img {
+    padding-top: 15px;
+}  
+
+.rivers-card, .camping-card, .rapids-card, img{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #516B7B;
+}
+main section img {
+    box-sizing: border-box;
 }
