@@ -26,6 +26,7 @@ nav a{
     color: #552929;
     text-decoration: none;
     padding: 35px;
+    
 }
 nav a:hover{
     background-color: #552929;
@@ -129,12 +130,17 @@ footer p a:hover {
 }
 #hero-img{
     width: 100%;
+    margin: 0;
+}
+img.logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 footer .social img {
     padding-top: 15px;
 }  
 
-.rivers-card, .camping-card, .rapids-card, img{
+.rivers-card, .camping-card, .rapids-card, img.mountains{
     margin: 200px 0;
 }
 
